@@ -236,6 +236,7 @@ header .headercont .clientlogo img {
 .ubicacion .proinfo .proyectxt h3 {
     width: 100%;
     height: auto;
+    font-size: 30px;
 }
 .ubicacion .proinfo .proyectxt h4 {
     width: 100%;
@@ -506,6 +507,7 @@ header .headercont .clientlogo img {
 .editpmaster .editpbox .editpcont .formbox form .lbfotos {
     width: 30%;
     height: 50px;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -533,6 +535,7 @@ header .headercont .clientlogo img {
     color: #fff;
     border: none;
     border-radius: 20px;
+    margin-bottom: 30px;
 }
 .editpmaster .editpbox .editpcont .formbox form .buttons .eliminar {
     background: #e34d4d;
@@ -652,4 +655,108 @@ header .headercont .clientlogo img {
 }
 .clientesaddimg:hover {
     cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    .proyecto .imgpro {
+        width: 30%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .proyecto .imgpro img {
+        height: auto;
+        width: 100%;
+    }
+    .proyecto .proinfo h3 {
+        width: 100%;
+        height: 40%;
+        font-size: 30px;
+    }
+    .proyecto .proinfo h4 {
+        width: 100%;
+        height: 10%;
+        font-size: 20px;
+    }
+    .proyecto .proinfo .proyectxt {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        font-size: 20px;
+        font-family: Helvetica-bold;
+    }
+    .proyecto .proinfo .clientbuttons {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .proyecto .proinfo .clientbuttons button {
+        width: 70px;
+        height: 50%;
+        border: none;
+        border-radius: 10px;
+        background: #fff;
+        color: #000;
+        font-family: Helvetica;
+        font-size: 10px;
+    }
+    .mastercont .proyectos {
+        width: 90%;
+        background: #fff;
+        height: 80%;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.438);
+        border-radius: 30px 30px 0px 0px;
+        padding: 10px 10px 0px 10px;
+    }
+    .inpromaster .inpro {
+        width: 90%;
+        border-radius: 30px 30px 0px 0px;
+        padding: 10px 10px 0px 10px;
+    }
+    .clientonfoproyects {
+        width: 100%;
+        height: 100px;
+    }
+    .clientonfoproyects h4 {
+        width: 40%;
+        font-size: 20px;
+    }
+    .editpmaster .editpbox {
+        background: #fff;
+        width: 70%;
+        height: 90%;
+        border-radius: 40px;
+        padding: 20px;
+        z-index: 202;
+    }
+    .editpmaster .editpbox .editpcont .infobox h5 {
+        font-size: 30px;
+    }
+    .editpmaster .editpbox .editpcont .infobox p {
+        font-size: 15px;
+    }
+    .editpmaster .editpbox .editpcont .formbox {
+        width: 100%;
+    }
+    .editpmaster .editpbox .editpcont .formbox form label {
+        font-size: 19px;
+    }
+    .editpmaster .editpbox .editpcont .formbox form .iptxt {
+        font-size: 10px;
+    }
+    .editpmaster .editpbox .editpcont .formbox form .buttons button {
+        font-size: 15px;
+    }
+    .ubicacion .proinfo .proyectxt h3 {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .ubicacion .proinfo .proyectxt h3 {
+        font-size: 15px;
+    }
 }
