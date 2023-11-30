@@ -105,6 +105,20 @@ header .headercont .clientlogo img {
     font-family: Helvetica-Bold;
     border-radius: 20px;
 }
+.anadircl {
+    width: 200px;
+    height: 50px;
+    background: #80BC00;
+    font-size: 20px;
+    border: none;
+    color: #fff;
+    font-family: Helvetica-Bold;
+    border-radius: 20px;
+}
+.anadircl:hover {
+    background: #a7ef0b;
+    cursor: pointer;
+}
 .crudclients button:hover {
     background: #a7ef0b;
     cursor: pointer;
@@ -312,8 +326,9 @@ header .headercont .clientlogo img {
     height: 100%;
     border-radius: 40px 40px 0px 0px;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
 }
 .inpromaster .inpro .inprocont .arrowhid {
     width: 100%;
