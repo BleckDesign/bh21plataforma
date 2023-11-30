@@ -14,6 +14,7 @@ const cortinacont = document.getElementById('cortinacont');
 const shadow = document.getElementById('shadow');
 const editpmaster = document.getElementById('editpmaster');
 
+
 //catalogos
 const cgmaster = document.getElementById('cgmaster');
 const cgbox = document.getElementById('cgbox');
